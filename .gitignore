@@ -1,0 +1,62 @@
+# ========================================
+# Composer / Drupal core
+# ========================================
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+
+# ========================================
+# Files & Media (user-generated)
+# ========================================
+/web/sites/*/files/
+/web/sites/*/private/
+
+# ========================================
+# Local configuration (should not be tracked)
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+/web/sites/*/development.services.yml
+
+# ========================================
+# Drupal configuration overrides (dev only)
+/config/sync_bak/
+/drush/local/
+/drush-backups/
+
+# ========================================
+# Cache, logs, temp, db dumps
+*.log
+*.tmp
+*.cache
+*.sqlite
+*.sql
+*.gz
+*.zip
+
+# ========================================
+# Frontend build tools
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# ========================================
+# IDEs and OS clutter
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+
+# ========================================
+# PHPUnit and test output
+/sites/simpletest/
+/phpunit.xml
+/phpunit.xml.dist
+
+# ========================================
+# Optional: patches or translations
+/patches/
+/translations/
