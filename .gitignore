@@ -16,6 +16,7 @@
 # ========================================
 # Local configuration (should not be tracked)
 /web/sites/*/settings.local.php
+/web/sites/*/settings.php
 /web/sites/*/services.local.yml
 /web/sites/*/development.services.yml
 
